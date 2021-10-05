@@ -1,0 +1,182 @@
+/* core */
+
+body {
+    font-family: "Vollkorn SC";
+    font-size: 16px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    margin: 0;
+    color: #3a83f1;
+    font-size: 55px;
+}
+
+/* page-header */
+
+.page-header {
+    padding: 0 15px;
+    background-color: #c7c0bd;
+}
+
+.page-header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header__logo-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* main-navigation */
+
+.main-navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 650px;
+    list-style: none;
+}
+
+.main-navigation__link {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-navigation__link:hover {
+    color: #f34141;
+}
+
+.promo__container {
+    height: 780px;
+    background-image: url(img/Монтажная\ область\ 2\ 2.png);
+    background-color: #c7c0bd;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.promo__wrapper {
+    width: 630px;
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.promo__text {
+    margin: 0;
+    margin-bottom: 100px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.promo__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 456px;
+    height: 100px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    background-color: #e75858;
+    border-radius: 30px;
+}
+
+/* about */
+
+.about {
+    padding: 70px 0;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__text {
+    width: 45%;
+    margin: 0;
+    padding-top: 100px;
+    font-family: "Vollkorn";
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.about__images {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.about__image {
+    width: 50%;
+    height: auto;
+}
+
+.about__image--right {
+    align-self: end;
+}
+
+.advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    min-height: 150px;
+}
+
+.advantages__number {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "Vollkorn";
+}
+
+.advantages__text {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "Vollkorn";
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.skills__title {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.skills__list {
+    width: 400px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
